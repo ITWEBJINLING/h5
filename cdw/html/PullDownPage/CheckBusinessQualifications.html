@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>查看商家资质</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="stylesheet" href="../../css/PullDownPage/CheckBusinessQualifications.css" />
+        <link rel="stylesheet" type="text/css" href="../../css/assets/base.css"/>
+        <script type="text/javascript" src="../../js/assets/rem.js"></script>
+        <script type="text/javascript" src="../../js/assets/jquery-3.3.1.js"></script>
+	</head>
+	<body>
+		<!--头部开始-->
+        <header>
+        	<div class="gjl_top"></div>
+        	<div class="gjl_head">
+        		<a href="javascript :history.back(-1);" onClick="javascript :history.back(-1);"></a>
+        		<span>商家资质</span>
+        		<i></i>
+        	</div>
+        </header>
+        <!--头部结束-->
+        <form method="post" class="gjl_form">
+        	  <div class="gjl_input">
+        	  	<div class="gjl_inputmain">
+        	  	<span>手机号:</span>
+        	  	<input type="text" name="phone" placeholder="请输入手机号码"/>
+        	  	</div>
+        	  	<h5 class="gjlactive">请输入有效的手机号码</h5>
+        	  </div>
+        	  <div class="gjl_input">
+        	  	<div class="gjl_inputmain2">
+        	  	<span>验证码:</span>
+        	  	<input type="text" name="code" placeholder="请输入验证码"/>
+        	  	<div class="gjl_codebtn">获取验证码</div>
+        	  	</div>
+        	  	<h5 class="gjlactive">验证码输入错误</h5>
+        	  </div>
+              <button class="gjl_nextbtn">下一步</button> 
+        </form> 
+        <p class="gjl_word">手机号验证过后才可查看商家资质</p>
+	</body>
+</html>

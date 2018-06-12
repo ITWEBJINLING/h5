@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>我的穿戴圈</title>
+	    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="stylesheet" href="../../css/MyWearRing/MyWearRing.css" />
+        <link rel="stylesheet" type="text/css" href="../../css/assets/base.css"/>
+        <script type="text/javascript" src="../../js/assets/rem.js"></script>
+        <script type="text/javascript" src="../../js/assets/jquery-3.3.1.js"></script>
+        <script type="text/javascript" src="../../js/MyWearRing/MyWearRing.js"></script>
+	</head>
+		<style>
+            .tabClick li{ height:40px; line-height: 40px; width: 33.3%; float: left; text-align: center}
+            .tabClick li.active{width:33.3%;height: 100%; color: #ff7993; transition: 0.1s; font-weight: bold;border-bottom: 0.04rem solid #ff7993;}
+            .tabCon{ overflow: hidden}
+            .tabBox{ position: relative}
+            .tabList{word-break: break-all; width:100%;float:left; line-height:100px; text-align:center; color:#ff7993; font-size:36px; font-family: "Arial Black"}
+            /*.lineBorder{ height: 2px; width:50%;overflow: hidden;position: relative;}*/
+            /*.lineDiv{ background: #ff7993; height: 2px; width: 25%;}*/
+		</style>
+	<body>
+		<!--头部开始-->
+        <header>
+        	<div class="gjl_top"></div>
+        	<div class="gjl_head">
+        		<a href="javascript :history.back(-1);" onClick="javascript :history.back(-1);"></a>
+        		<span>我的穿戴圈</span>
+        		<i></i>
+        	</div>
+        </header>
+        <!--头部结束-->
+        <!--个人头部内容开始-->
+        <aside>
+        	<div class="gjl_mywearheaderbox">
+                  <div class="gjl_mywearheadercon">
+                  	<div class="gjl_mywearheaderphoto">
+                  		<img src="../../img/images/toux.jpg" alt="" />
+                  	</div>
+                  	<div class="gjl_mywearheaderword">
+                  		<p>汉堡大大</p>
+                  		<ul>
+                  			<li>穿搭小白</li>
+                  	        <li></li>
+                  		</ul>
+                  	</div>
+                  </div>
+        	</div>
+        	<div class="gjl_mywearheaderlisbox">
+        		<ul class="gjl_mywearheaderliscon">
+        			<li class="gjlfs">
+        				<a href="../MyWearRing/MyWearRingcomment/MyWearRingcomment.html">
+        				<span>10</span>
+        				<span>粉丝</span>
+        				</a>
+        			</li>
+        			<li>
+        			<a href="">
+        				<span>20</span>
+        				<span>关注</span>
+        			</a>
+        			</li>
+        			<li>
+        				<a href="">
+        				<span>5</span>
+        				<span>获赞</span>
+        				</a>
+        			</li>
+        		</ul>
+        	</div>
+        </aside>
+        <div style="width: 100%;height: 3.7rem;"></div>
+        <!--个人头部内容结束-->
+        <section>
+		<div class="gjl_nav">
+	        <div class="tab">
+		         <ul class="tabnav">
+			         <li class="cuttor">动态</li>
+			         <li>收藏</li>
+			         <li>评论</li>
+		         </ul>
+		         <div class="tabcontent">
+			         <div style=" display:block;">
+			         	<ul class="gjl_dynamicConditionList">
+			         		<li>
+			         		    <div class="gjl_dynaCondheadphoto">
+			         		    	<div class="gjl_yhbz"><img src="../../img/icon/yhbz.png"/></div>
+			         		    </div>
+			         		    <div class="gjl_dengjitishi">
+			         		    	<div class="gjl_wordhead">
+			         		    	     <span>白鹤达人</span>
+			         		    	     <div class="gjl_dynaConddjts">穿搭小白</div>
+			         		    	</div>
+			         		    	<div class="gjl_worddata">
+			         		    	     <span>2018-6-5</span>
+			         		    	     <span>11:12</span>
+			         		    	     <span>郑州</span>
+			         		    	</div>
+			         		    </div>
+			         		    <div class="gjl_headdel"><img src="../../img/icon/btn_dustbin.png" alt="" /></div>
+			         		</li>
+			         		<li>
+			         			<p class="gjl_wordjs">灰色大衣给人的感觉比较静谧优雅，其实它最适合黑白，反倒多了别的颜色更难穿出气质。灰色大衣加入基础黑白色，低调的经典，无论是白色上衣+黑色裤子还是黑色上衣+白色裤子，都可以搭。<span>#穿搭达人#</span></p>
+			         		</li>
+			         		<li>
+			         			<div class="gjl_imgshopbox">
+			         				<div class="gjl_imgshop"><img src="../../img/images/fz1.jpg" alt="" /></div>
+			         				<div class="gjl_imgshop"><img src="../../img/images/fz2.jpg" alt="" /></div>
+			         				<div class="gjl_imgshop"><img src="../../img/images/fz3.jpg" alt="" /></div>
+			         			</div>
+			         		</li>
+			         		<li>
+			         			<div class="gjl_dengjibtn">
+			         				<div class="gjl_share"><img src="../../img/icon/btn_share.png" alt="" /></div>
+			         				<div class="gjl_pinglun"><a href="../MyWearRing/MyWearRingcomment/commentlist.html"><img src="../../img/icon/btn_discuss.png" alt="" /></a></div>
+			         				<div class="gjl_dianzan"><img src="../../img/icon/btn_aixin.png" alt="" /></div>
+			         			</div>
+			         		</li>
+			         	</ul>
+			         		<ul class="gjl_dynamicConditionList">
+			         		<li>
+			         		    <div class="gjl_dynaCondheadphoto">
+			         		    	<div class="gjl_yhbz"><img src="../../img/icon/yhbz.png"/></div>
+			         		    </div>
+			         		    <div class="gjl_dengjitishi">
+			         		    	<div class="gjl_wordhead">
+			         		    	     <span>白鹤达人</span>
+			         		    	     <div class="gjl_dynaConddjts">穿搭小白</div>
+			         		    	</div>
+			         		    	<div class="gjl_worddata">
+			         		    	     <span>2018-6-5</span>
+			         		    	     <span>11:12</span>
+			         		    	     <span>郑州</span>
+			         		    	</div>
+			         		    </div>
+			         		    <div class="gjl_headdel"><img src="../../img/icon/btn_dustbin.png" alt="" /></div>
+			         		</li>
+			         		<li>
+			         			<p class="gjl_wordjs">灰色大衣给人的感觉比较静谧优雅，其实它最适合黑白，反倒多了别的颜色更难穿出气质。灰色大衣加入基础黑白色，低调的经典，无论是白色上衣+黑色裤子还是黑色上衣+白色裤子，都可以搭。<span>#穿搭达人#</span></p>
+			         		</li>
+			         		<li>
+			         			<div class="gjl_imgshopbox">
+			         				<div class="gjl_imgshop"><img src="../../img/images/fz1.jpg" alt="" /></div>
+			         				<div class="gjl_imgshop"><img src="../../img/images/fz2.jpg" alt="" /></div>
+			         				<div class="gjl_imgshop"><img src="../../img/images/fz3.jpg" alt="" /></div>
+			         			</div>
+			         		</li>
+			         		<li>
+			         			<div class="gjl_dengjibtn">
+			         				<div class="gjl_share"><img src="../../img/icon/btn_share.png" alt="" /></div>
+			         				<div class="gjl_pinglun"><img src="../../img/icon/btn_discuss.png" alt="" /></div>
+			         				<div class="gjl_dianzan"><img src="../../img/icon/btn_aixin.png" alt="" /></div>
+			         			</div>
+			         		</li>
+			         	</ul>
+			         </div>
+			         
+			         
+			         
+			         
+			         <div>
+			         	<ul class="gjl_dynamicConditionList">
+			         		<li>
+			         		    <div class="gjl_dynaCondheadphoto">
+			         		    	<div class="gjl_yhbz"><img src="../../img/icon/yhbz.png"/></div>
+			         		    </div>
+			         		    <div class="gjl_dengjitishi">
+			         		    	<div class="gjl_wordhead">
+			         		    	     <span>白鹤达人</span>
+			         		    	     <div class="gjl_dynaConddjts">穿搭小白</div>
+			         		    	</div>
+			         		    	<div class="gjl_worddata">
+			         		    	     <span>2018-6-5</span>
+			         		    	     <span>11:12</span>
+			         		    	     <span>郑州</span>
+			         		    	</div>
+			         		    </div>
+			         		    <div class="gjl_headdel"><img src="../../img/icon/btn_dustbin.png" alt="" /></div>
+			         		</li>
+			         		<li>
+			         			<p class="gjl_wordjs">灰色大衣给人的感觉比较静谧优雅，其实它最适合黑白，反倒多了别的颜色更难穿出气质。灰色大衣加入基础黑白色，低调的经典，无论是白色上衣+黑色裤子还是黑色上衣+白色裤子，都可以搭。<span>#穿搭达人#</span></p>
+			         		</li>
+			         		<li>
+			         			<div class="gjl_imgshopbox">
+			         				<div class="gjl_imgshop"><img src="../../img/images/fz1.jpg" alt="" /></div>
+			         				<div class="gjl_imgshop"><img src="../../img/images/fz2.jpg" alt="" /></div>
+			         				<div class="gjl_imgshop"><img src="../../img/images/fz3.jpg" alt="" /></div>
+			         			</div>
+			         		</li>
+			         		<li>
+			         			<div class="gjl_dengjibtn">
+			         				<div class="gjl_share"><img src="../../img/icon/btn_share.png" alt="" /></div>
+			         				<div class="gjl_pinglun"><img src="../../img/icon/btn_discuss.png" alt="" /></a></div>
+			         				<div class="gjl_dianzan"><img src="../../img/icon/btn_aixin.png" alt="" /></div>
+			         			</div>
+			         		</li>
+			         	</ul>
+			         </div>
+			         
+			         
+			         
+			         <div>
+                          <ul class="gjl_comment">
+                          	<li>
+                          		<div class="gjl_commentlisthead">
+                          		     <div class="gjl_commentlistheadtime"><span>2018-05-05</span><span>15:03</span></div>
+                          		     <div class="gjl_commentlistdel"><img src="../../img/icon/btn_dustbin.png" alt="" /></div>
+                          		</div>
+                          		<div class="gjl_commentlistword">你评论了<a>刘国杰</a>的作品:生活就像海洋，只有意志将强的人才能到达彼岸.</div>
+                          	</li>
+                          	<li>
+                          		<div class="gjl_commentlisthead">
+                          		     <div class="gjl_commentlistheadtime"><span>2018-05-05</span><span>15:03</span></div>
+                          		     <div class="gjl_commentlistdel"><img src="../../img/icon/btn_dustbin.png" alt="" /></div>
+                          		</div>
+                          		<div class="gjl_commentlistword">你评论了<a>刘国杰</a>的作品:生活就像海洋，只有意志将强的人才能到达彼岸.</div>
+                          	</li>
+                          	<li>
+                          		<div class="gjl_commentlisthead">
+                          		     <div class="gjl_commentlistheadtime"><span>2018-05-05</span><span>15:03</span></div>
+                          		     <div class="gjl_commentlistdel"><img src="../../img/icon/btn_dustbin.png" alt="" /></div>
+                          		</div>
+                          		<div class="gjl_commentlistword">你评论了<a>刘国杰</a>的作品:生活就像海洋，只有意志将强的人才能到达彼岸.</div>
+                          	</li>
+                          </ul>
+			         </div>
+			         
+		         </div>
+	        </div>
+		</div>
+        </section>
+        
+        <script type="text/javascript">
+				$(".tab").tab({
+					type:'click'
+				});
+		</script>
+		<script src="../../js/MyWearRing/MyWearRingmain.js"></script>
+	</body>
+</html>

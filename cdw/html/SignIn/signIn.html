@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>每日签到</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="stylesheet" href="../../css/SignIn/signIn.css" />
+        <link rel="stylesheet" type="text/css" href="../../css/assets/base.css"/>
+        <link rel="stylesheet" href="../../css/assets/layer-animate.css" />
+        <script type="text/javascript" src="../../js/assets/rem.js"></script>
+        <base href="<%=basePath%>">
+        <script type="text/javascript" src="../../js/assets/jquery-3.3.1.js"></script>
+        <script type="text/javascript" src="../../js/assets/layer.js"></script>
+	</head>
+	<body>
+		<!--头部开始-->
+        <!--<header>
+        	<div class="gjl_top"></div>
+        	<div class="gjl_head">
+        		<a href="javascript :history.back(-1);" onClick="javascript :history.back(-1);"></a>
+        		<span>每日签到</span>
+        		<i></i>
+        	</div>
+        </header>-->
+        <!--头部结束-->
+        <!--签到表开始-->
+        <div class="gjl_dataimg">
+        	<div class="gjl_dataimgs">
+        	<!--表头开始-->
+        	<div class="gjl_datatop">
+        		<img src="../../img/icon/icon_menology.png" alt="" />
+        		<div class="gjl_ljqdbtn" onclick='calUtil.qiandao()'>立即签到</div>
+        	    <p class="gjl_qdtady"><span></span>天</p>
+        	</div>
+        	<!--表头结束-->
+		    <div class="gjl_content" id="calendar"></div>
+		    </div>
+		</div>
+		<!--签到表结束-->
+		<!--签到规则开始-->
+		<div class="gjl_SigninNeatbox">
+			<div class="gjl_SigninNeat">
+			    <div class="gjl_Signinzstitle">签到规则</div>
+				<ul class="gjl_SigninNeatwordlist">
+					 <li>1.每次签到1穿戴值;</li>
+					 <li>2.首次签到奖励2穿戴值;</li>
+					 <li>3.生日当天签到奖励10积值;</li>
+					 <li>4.连续7天签到奖励3穿戴值，连续签到28天奖励5穿戴值;</li>
+					 <li>5.穿戴值目前仅作为用户等级评定依据，后期将会有其他用;</li>
+					 <li>6.签到以月为周期，上月签到天数不计入本月累计天数;</li>
+					 <li>7.最终解释权归穿戴网(天津忆众科技有限公司)所有;</li>
+				</ul>
+			</div>
+		</div>
+		<!--签到规则结束-->
+     <script type="text/javascript">  
+         $(function(){  
+           calUtil.entrance();  
+         });  
+     </script> 
+     <script type="text/javascript" src="../../js/SignIn/signIn.js"></script>
+	</body>
+</html>

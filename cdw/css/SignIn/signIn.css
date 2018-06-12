@@ -1,0 +1,309 @@
+body{
+	width: 100%;
+	height: 100%;
+	overflow-x:hidden;
+	-ms-overflow-x: hidden;
+	background: #fde9ce;
+}
+/*头部开始*/
+header{
+	width: 100%;
+	height: 1.10rem;
+	background: #ffffff;
+}
+.gjl_top{
+	width: 100%;
+	height: 0.4rem;
+}
+.gjl_head{
+	width: 100%;
+	height: 0.7rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 0.25rem;
+	padding-right: 0.25rem;
+	box-shadow: 0 0.01rem 0  #bcbcbc;
+}
+.gjl_head a{
+	display: inline-block;
+	width: 0.19rem;
+	height: 0.36rem;
+	background: url(../../img/images/fh.png) no-repeat top center;
+	background-size: 100% 100%;
+}
+.gjl_head span{
+	font-size: 0.34rem;
+	color: #2a2a2a;
+}
+/*头部结束*/
+/*签到表开始*/
+.gjl_dataimg{
+	width: 100%;
+	height: 5.86rem;
+	padding-left: 0.55rem;
+	padding-right: 0.55rem;
+	margin-top: 0.27rem;
+}
+.gjl_dataimgs{
+	width: 100%;
+	height: 100%;
+	border-radius: 0.08rem;
+	overflow: hidden;
+}
+/*表头开始*/
+.gjl_datatop{
+		width: 100%;
+		height: 0.89rem;
+		background: #ff8206;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-left: 0.25rem;
+		padding-right: 0.25rem;
+}
+.gjl_datatop img{
+		width: 0.39rem;
+		height: 0.39rem;
+}
+.gjl_ljqdbtn{
+		width: 2.04rem;
+		height: 0.59rem;
+		background: url(../../img/icon/lijiqiandao.png) no-repeat top center;
+		background-size: 100% 100%;
+		font-size: 0.26rem;
+		color: #fff;
+		text-align: center;
+		line-height: 0.5rem;
+		margin-top: 0.08rem;
+		margin-right: -0.2rem;
+}
+.gjl_qdtady{
+		font-size: 0.24rem;
+		color: #fff;
+}
+/*表头结束*/
+/*表格内容开始*/
+.gjl_content{
+	width:100%;
+	height:4.97rem;
+	padding-left: 0.25rem;
+	padding-right: 0.25rem;
+    background: #fcd21d;
+}
+.sign_main {
+	width:100%;
+	height: 100%;
+	font-family: "Microsoft YaHei",SimHei;
+}
+/*当前日期和上一月下一月*/ 
+.sign_succ_calendar_title {
+	text-align: center;
+	width:100%;
+	height: 0.77rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.28rem;
+    color: #1b1b1b;
+}  
+.sign_succ_calendar_title .calendar_month_prev,.sign_succ_calendar_title .calendar_month_next{
+	width: 0.2rem;
+	height: 0.38rem;
+}  
+.calendar_month_span {
+	display: inline;
+	line-height: 0.77rem;
+	font-size: 0.26rem;
+	color: #656565;
+	letter-spacing: 0.02rem;
+	font-weight: bold;
+}  
+.sign{
+	width: 100%;
+	height: 3.99rem;
+	padding-top: 0.6rem;
+	background: #fff;
+	border-radius: 0.08rem;
+	overflow: hidden;
+}
+.sign table{
+	width: 100%;
+	height: 100%;
+}
+.sign table tbody{
+	width: 100%;
+	height: 100%;
+}
+.gjl_tableth th{
+	font-size: 0.24rem;
+	color: #ff7494;
+	height: 0.24rem;
+}
+.sign td{
+    font-size: 0.22rem;
+    color: #212121;
+    text-align: center;
+    height: 0.22rem;
+}
+.sign tr>td:first-child,.sign tr>td:last-child{
+    font-size: 0.2rem;
+    color: #797979;
+    text-align: center;
+}
+/*表格内容结束*/
+/*动态添加已经签到的日历*/
+.sign .on {
+	background:url(../../img/icon/icon_duihao.png) no-repeat bottom center;
+	background-size: 65% 65%;
+}  
+/*.singer_r_img{display:block;width:114px;height:52px;line-height:45px;background:url(images/sing_week.gif) right 2px no-repeat;vertical-align:middle;*margin-bottom:-10px;text-decoration:none;}  
+.singer_r_img:hover{background-position:right -53px;text-decoration:none;}  
+.singer_r_img span{margin-left:14px;font-size:16px;font-family:'Hiragino Sans GB','Microsoft YaHei',sans-serif !important;font-weight:700;color:#165379;}  
+.singer_r_img.current{background:url(images/sing_sing.gif) no-repeat 0 2px;border:0;text-decoration:none;}  */
+/*.sign .today {background-color:#FFAA33;}*/  
+/*.calendar_month_next,.calendar_month_prev{width: 34px;height: 40px;cursor: pointer;background:url(images/sign_arrow.png) no-repeat;}  */
+/*.calendar_month_next {float: right;background-position:-42px -6px;}*/ 
+
+/*签到规则开始*/
+.gjl_SigninNeatbox{
+	width: 100%;
+	height: auto;
+	padding-left: 0.25rem;
+	padding-right: 0.25rem;
+	margin-top: 0.6rem;
+	margin-bottom: 1.09rem;
+} 
+.gjl_SigninNeat{
+	width: 100%;
+	height: auto;
+	border: 0.04rem solid #ffc77d;
+	border-radius: 0.1rem;
+	padding: 0.66rem 0.09rem 0.34rem 0.09rem;
+	box-sizing: border-box;
+	position: relative;
+}
+.gjl_Signinzstitle{
+	font-size: 0.28rem;
+	color: #fff;
+	background: #fd9001;
+	text-align: center;
+	line-height: 0.68rem;
+	height: 0.68rem;
+	width: 1.9rem;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	top: -0.34rem;
+	border-radius: 0.08rem;
+}
+.gjl_SigninNeatwordlist{
+	font-size: 0.24rem;
+	color: #5c5c5c;
+	line-height: 0.5rem;
+}
+/*签到规则结束*/
+
+/*弹框开始*/
+.msg-layer-bg {
+    width: 100%;
+    z-index: 99;
+    position: fixed;
+    background: rgba(0,0,0,0.4);
+    top: 0;
+    height: 100%;
+    filter: alpha(opacity=40);
+}
+.msg-layer{
+    z-index: 999;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    text-align:center;
+    opacity: 1;
+    filter: alpha(opacity=40);
+    padding: 0 10px 10px;
+    background:url(../../img/images/bg.png) no-repeat center center;
+    background-size: 100% 100%;
+    border-radius: 0.05rem;
+    height: 6.79rem;
+    width: 5.13rem;
+}
+.msg-con{
+    padding: 10px;
+    font-size: 0.28rem;
+    color: #404040;
+    word-break: break-all;
+}
+.layer-close{
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 0.32rem;
+    color: black;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+}
+.layer_gjliconsuccess{
+	width: 2.52rem;
+	height: 1.66rem;
+	background:url(../../img/images/icon_qiandao.png) no-repeat center center;
+	background-size: 100% 100%;
+	margin: 0.73rem auto;
+}
+.msg-layer>h5{
+    font-size:18px;
+    line-height:38px;
+    color: #ff7993;
+    margin-top: 1.1rem;
+}
+.layer-btn{
+    padding:0.15rem 0 0.1rem;
+    text-align: center;
+}
+.layer-btn>input{
+    display:none;
+    width: auto;
+    height: auto;
+    padding: 0.18rem 1.12rem 0.18rem 1.12rem;
+    text-align: center;
+    color:#fff;
+    font-size:0.28rem;
+    border-radius: 0.32rem;
+    cursor: pointer;
+    border:none;
+    outline: none;
+    line-height: 100%;
+}
+
+.layer-cancel{
+    background:#ccc9c9;
+}
+.layer-commit{
+    background:#ff7993;
+}
+.msy-alert{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 260px;
+    max-width: 500px;
+    padding: 10px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+    color: #9f3e42;
+    z-index: 99999;
+    background: #fff;
+    border:1px solid #bfbfbf;
+    box-shadow:0 0 7px 0 #b5b3b3;
+    -webkit-box-shadow:0 0 7px 0 #b5b3b3;
+    -moz-box-shadow:0 0 7px 0 #b5b3b3;
+    -ms-box-shadow:0 0 7px 0 #b5b3b3;
+    -o-box-shadow:0 0 7px 0 #b5b3b3;
+}
+/*弹框结束*/

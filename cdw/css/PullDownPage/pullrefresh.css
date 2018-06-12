@@ -1,0 +1,298 @@
+body{
+	width: 100%;
+	height: 100%;
+	overflow-x:hidden;
+	-ms-overflow-x: hidden;
+	padding-left: 0.26rem;
+	padding-right: 0.26rem;
+	background: url(../../img/images/pulldownbj.png) no-repeat top center;
+	background-size: 100% 100%;
+}
+/*头部开始*/
+header{
+	width: 100%;
+	height: 1.10rem;
+}
+.gjl_top{
+	width: 100%;
+	height: 0.4rem;
+}
+.gjl_head{
+	width: 100%;
+	height: 0.7rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 0.26rem;
+	padding-right: 0.26rem;
+}
+.gjl_head>img:first-child{
+	width: 0.19rem;
+	height: 0.36rem;
+}
+.gjl_head img:last-child{
+	width: 0.35rem;
+	height: 0.35rem;
+}
+/*头部结束*/
+/*<!--头像及简要信息开始-->*/
+aside{
+	width: 100%;
+	height: 1.17rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:0rem 0.25rem 0rem 0.25rem;
+}
+.gjl_photo{
+	width: 1.17rem;
+	height: 1.17rem;
+	border-radius: 0.2rem;
+	background: url(../../img/images/touxiang.jpg) no-repeat top center;
+	background-size: 100% 100%;
+}
+.gjl_headMess{
+	width: 46%;
+	height: 1.17rem;
+	font-size: 0.22rem;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+.gjl_headMess li:first-child{
+	font-size: 0.32rem;
+}
+.gjl_headMess li:nth-child(2){
+	display: flex;
+}
+.gjl_rank{
+	width: auto;
+	height: auto;
+	margin-right: 0.2rem;
+}
+.gjl_rank img{
+	width: 0.29rem;
+	height: 0.22rem;
+}
+.gjl_fansnum{
+	width: 12%;
+	height: auto;
+	font-size: 0.20rem;
+	color: #FAFAFA;
+	line-height: 0.3rem;
+}
+.gjl_fansnum p span{
+	line-height: 0.4rem;
+}
+.gjl_addAttention{
+	width: 0.9rem;
+	height: 0.4rem;
+	font-size: 0.22rem;
+}
+.gjl_addAttention>img{
+	width: 100%;
+	height: 100%;
+}
+.gjl_distance{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.gjl_distance dd{
+	box-sizing: border-box;
+	border-right: 0.01rem solid #F9F9F9;
+	padding-right: 0.1rem;
+	padding-left: 0rem;
+}
+.gjl_distance dd:last-child{
+	border-right:0rem solid #F9F9F9;
+	padding-right: 0;
+	padding-left: 0.1rem;
+}
+/*<!--头像及简要信息结束-->*/
+/*<!--买赠活动开始-->*/
+.gjl_salePresent{
+	width: 100%;
+	height: auto;
+	padding-left: 0.25rem;
+	padding-right: 0.25rem;
+	margin-top: 0.16rem;
+}
+.gjl_salePresent li{
+	height: 0.5rem;
+	display: flex;
+	align-items: center;
+}
+.gjl_salePresentIcon{
+	width: 0.63rem;
+	height: 0.31rem;
+	margin-right: 0.12rem;
+	font-size: 0.22rem;
+	color: #fff;
+	background: #ff322e;
+	border-radius: 0.04rem;
+	text-align: center;
+	line-height: 0.31rem;
+}
+.gjl_salePresent li span{
+	font-size: 0.24rem;
+	color: #d6d6d1;
+}
+.gjl_loder{
+	font-size: 0.22rem;
+	color: #d6d6d1;
+	float: right;
+	margin-top: -0.4rem;
+	margin-right: 0.25rem;
+}
+/*<!--买赠活动结束-->*/
+/*公告开始*/
+.gjl_announcement{
+	width: 100%;
+	padding-left: 0.25rem;
+	padding-right: 0.25rem;
+    margin-top: 0.53rem;
+    display: flex;
+    align-items: flex-start;
+}
+.gjl_announcementIcon{
+	width: 0.63rem;
+	height: 0.31rem;
+	margin-right: 0.12rem;
+	font-size: 0.22rem;
+	color: #fff;
+	background: #f19149;
+	border-radius: 0.04rem;
+	text-align: center;
+	line-height: 0.31rem;
+	display: inline-block;
+	margin-top: 0.1rem;
+}
+.gjl_announcement span{
+	display: inline-block;
+	width: 79%;
+	font-size: 0.24rem;
+	line-height: 0.4rem;
+	color: #d6d6d1;
+	text-align:justify; text-justify:inter-ideograph;
+}
+/*公告结束*/
+/*店铺评价开始*/
+.gjl_dppj{
+	width: 100%;
+	height: auto;
+	padding-left: 0.25rem;
+	padding-right: 0.25rem;
+	margin-top: 0.37rem;
+}
+/*导航栏开始*/
+article{
+	width: 100%;
+	height: 0.28rem;
+}
+.gjl_column{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.gjl_column div{
+	width: 55%;
+	height: 0.02rem;
+	background: rgb(244,244,244);
+}
+.gjl_column span{
+	width: 40%;
+	color: #fff;
+	font-size: 0.28rem;
+	text-align: center;
+}
+/*导航栏结束*/
+.gjl_grade{
+	width:90%;
+	height: 1.94rem;
+	background: rgba(244,244,244,0.3);
+	border-radius: 0.08rem;
+	margin: 0 auto;
+	margin-top: 0.42rem;
+	margin-bottom: 0.16rem;
+	padding-top: 0.57rem;
+	padding-bottom: 0.57rem;
+	display: flex;
+}
+.gjl_grade li{
+	width: 50%;
+	height: 100%;
+	border-right: 0.01rem solid #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.gjl_grade li:last-child{
+	border-right: 0rem solid #fff;
+}
+.gjl_grade li span{
+	font-size: 0.5rem;
+	color: #e2e2e1;
+	text-align: center;
+}
+.gjl_grade li p{
+	font-size: 0.24rem;
+	text-align: center;
+}
+/*店铺评价结束*/
+/*店铺信息开始*/
+.gjl_dpxx{
+	width: 100%;
+	height: auto;
+	padding-left: 0.25rem;
+	padding-right: 0.25rem;
+}
+.gjl_shopsMessList{
+	width: 100%;
+	height: auto;
+	border-bottom: 0.01rem solid rgba(244,244,244,0.4);
+	padding-bottom: 0.36rem;
+	padding-top: 0.5rem;
+}
+.gjl_shopsMessList li{
+	font-size: 0.26rem;
+	color: #e2e2e1;
+	line-height: 0.54rem;
+}
+/*店铺信息结束*/
+.gjl_tz{
+	width: 100%;
+	height: auto;
+	padding-top: 0.15rem;
+	padding-left: 0.25rem;
+	padding-right: 0.25rem;
+	padding-bottom:0.77rem ;
+}
+.gjl_native{
+	width: 100%;
+	height: auto;
+}
+.gjl_native li{
+	width: 100%;
+	height:0.46rem;
+}
+.gjl_native li a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.gjl_native li a span{
+    font-size: 0.26rem;
+    color: #bbbbb4;
+}
+.gjl_native li a img{
+    display: inline-block;
+    width: 0.12rem;
+    height: 0.23rem;
+}
